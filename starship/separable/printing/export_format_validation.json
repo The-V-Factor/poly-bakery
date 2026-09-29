@@ -1,0 +1,32 @@
+{
+  "Base": {
+    "vertices": 190002,
+    "triangles": 380000,
+    "unit": "millimeter",
+    "binary_stl_size_valid": true
+  },
+  "Fit_Female": {
+    "vertices": 190002,
+    "triangles": 380000,
+    "unit": "millimeter",
+    "binary_stl_size_valid": true
+  },
+  "Fit_Male": {
+    "vertices": 190002,
+    "triangles": 380000,
+    "unit": "millimeter",
+    "binary_stl_size_valid": true
+  },
+  "Starship": {
+    "vertices": 190002,
+    "triangles": 380000,
+    "unit": "millimeter",
+    "binary_stl_size_valid": true
+  },
+  "SuperHeavy": {
+    "vertices": 190002,
+    "triangles": 380000,
+    "unit": "millimeter",
+    "binary_stl_size_valid": true
+  }
+}

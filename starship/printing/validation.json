@@ -1,0 +1,62 @@
+{
+  "components": 1,
+  "component_details": [
+    {
+      "vertices": 325002,
+      "center": [
+        -0.008360561914741993,
+        -0.32954978942871094,
+        90.74057006835938
+      ]
+    }
+  ],
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "zero_area_faces": 0,
+  "volume_cm3": 48.6488567504752,
+  "triangles": 650000,
+  "dimensions_mm": [
+    66.0,
+    66.0,
+    200.0
+  ],
+  "stl_roundtrip": {
+    "components": 1,
+    "component_details": [
+      {
+        "vertices": 325002,
+        "center": [
+          -0.008347690105438232,
+          -0.3295208811759949,
+          90.67517852783203
+        ]
+      }
+    ],
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "volume_cm3": 48.6488567504752,
+    "triangles": 650000,
+    "dimensions_mm": [
+      66.0,
+      66.0,
+      200.0
+    ]
+  },
+  "height_includes_base": true,
+  "solid": true,
+  "minimum_flap_design_mm": 1.4,
+  "grid_fin_backing_design_mm": 1.45,
+  "slicer_tested": false,
+  "physical_print_tested": false,
+  "full_wall_thickness_certified": false,
+  "exact_flight_revision_replica": false,
+  "three_mf_validation": {
+    "unit": "millimeter",
+    "vertices": 325002,
+    "triangles": 650000,
+    "valid_indices": true,
+    "height_mm": 200.0
+  },
+  "stl_binary_valid": true
+}

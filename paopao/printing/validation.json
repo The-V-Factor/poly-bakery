@@ -1,0 +1,101 @@
+{
+  "reference": "https://my.163.com/chongwu/pets/98.html",
+  "printer_target": "Bambu Lab A1 mini",
+  "physical_print_tested": false,
+  "slicer_tested": true,
+  "parts": {
+    "Front": {
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "volume_mm3": 152844.35895168706,
+      "triangles": 300000,
+      "dimensions_mm": [
+        87.984,
+        84.995,
+        39.604
+      ],
+      "stl_roundtrip": {
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "volume_mm3": 152844.35895168706,
+        "triangles": 300000,
+        "dimensions_mm": [
+          87.984,
+          84.995,
+          39.604
+        ]
+      }
+    },
+    "Back": {
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "volume_mm3": 149420.72766433496,
+      "triangles": 300000,
+      "dimensions_mm": [
+        87.984,
+        84.995,
+        36.996
+      ],
+      "stl_roundtrip": {
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "volume_mm3": 149420.72766433496,
+        "triangles": 300000,
+        "dimensions_mm": [
+          87.984,
+          84.995,
+          36.996
+        ]
+      }
+    },
+    "Complete": {
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "volume_mm3": 302269.7711834551,
+      "triangles": 350000,
+      "dimensions_mm": [
+        88.0,
+        76.602,
+        85.0
+      ],
+      "stl_roundtrip": {
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "volume_mm3": 302269.7711834551,
+        "triangles": 350000,
+        "dimensions_mm": [
+          88.0,
+          76.602,
+          85.0
+        ]
+      }
+    }
+  },
+  "slicer_conditions": {
+    "software": "Bambu Studio 02.08.02.61",
+    "printer": "A1 mini",
+    "nozzle_mm": 0.4,
+    "material": "Generic PLA",
+    "bed": "Textured PEI",
+    "layer_height_mm": 0.16,
+    "wall_loops": 3,
+    "infill": "15%",
+    "support": false,
+    "scope": [
+      "Front",
+      "Back"
+    ]
+  }
+}

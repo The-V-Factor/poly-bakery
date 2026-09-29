@@ -1,0 +1,115 @@
+{
+  "source_sha256": "a8508e6ad8374a7c948f7f231b83e9bf10566fc2115f6716c3f906ffad67b633",
+  "source_file": "../CaveCyclops.blend",
+  "purpose": "200 mm static solid print prototype",
+  "dimensions_mm": [
+    135.506,
+    115.998,
+    200.0
+  ],
+  "triangles": 950000,
+  "vertices": 474986,
+  "components": 1,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "zero_area_faces": 0,
+  "signed_volume_cm3": 228.108,
+  "nominal_skirt_thickness_mm_before_union": 1.595,
+  "nominal_belt_tail_diameter_mm_before_union": 1.754,
+  "union_voxel_mm": 0.16,
+  "hollow": false,
+  "supports_generated": false,
+  "nail_seating_adjustments": [
+    {
+      "name": "Fingernail_PRINT",
+      "movement_mm": 0.72
+    },
+    {
+      "name": "Fingernail.001_PRINT",
+      "movement_mm": 0.854
+    },
+    {
+      "name": "Fingernail.002_PRINT",
+      "movement_mm": 0.827
+    },
+    {
+      "name": "Fingernail.003_PRINT",
+      "movement_mm": 0.789
+    },
+    {
+      "name": "Fingernail.004_PRINT",
+      "movement_mm": 0.08
+    },
+    {
+      "name": "Fingernail.005_PRINT",
+      "movement_mm": 0.72
+    },
+    {
+      "name": "Fingernail.006_PRINT",
+      "movement_mm": 0.777
+    },
+    {
+      "name": "Fingernail.007_PRINT",
+      "movement_mm": 0.803
+    },
+    {
+      "name": "Fingernail.008_PRINT",
+      "movement_mm": 0.785
+    },
+    {
+      "name": "Fingernail.009_PRINT",
+      "movement_mm": 0.296
+    },
+    {
+      "name": "Toenail.001_PRINT",
+      "movement_mm": 0.382
+    },
+    {
+      "name": "Toenail.002_PRINT",
+      "movement_mm": 1.098
+    },
+    {
+      "name": "Toenail.003_PRINT",
+      "movement_mm": 0.68
+    },
+    {
+      "name": "Toenail.006_PRINT",
+      "movement_mm": 0.384
+    },
+    {
+      "name": "Toenail.007_PRINT",
+      "movement_mm": 1.097
+    },
+    {
+      "name": "Toenail.008_PRINT",
+      "movement_mm": 0.679
+    }
+  ],
+  "removed_subvoxel_specks": 1,
+  "slicer_validated": false,
+  "physical_print_tested": false,
+  "full_wall_thickness_certified": false,
+  "omitted_shader_inserts": [
+    "Ear concha",
+    "Ear concha.001",
+    "Iris_amber",
+    "Mouth closed recess",
+    "Navel",
+    "Nostril",
+    "Nostril.001"
+  ],
+  "stl_roundtrip": {
+    "height_mm": 200.0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "triangles": 950000
+  },
+  "three_mf_validation": {
+    "unit": "millimeter",
+    "vertices": 474986,
+    "triangles": 950000,
+    "valid_indices": true,
+    "height_mm": 200.0
+  },
+  "source_unchanged_after_export": true
+}

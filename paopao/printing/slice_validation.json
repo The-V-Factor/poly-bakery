@@ -1,0 +1,42 @@
+{
+  "A1mini_Back_PLA_04": {
+    "estimated_seconds": 7998,
+    "grams": 47.01,
+    "warnings": [
+      {
+        "msg": "not_support_traditional_timelapse",
+        "level": "2",
+        "error_code": "10018003"
+      },
+      {
+        "msg": "not_support_traditional_timelapse",
+        "level": "3",
+        "error_code": "1000C003"
+      }
+    ],
+    "gcode_md5_valid": true,
+    "inside_build_volume": true,
+    "support_used": false,
+    "sha256": "048da8d0c88401c15c25db1782b001aa625694cc21c8fa7428fad819ee5e791d"
+  },
+  "A1mini_Front_PLA_04": {
+    "estimated_seconds": 8777,
+    "grams": 48.6,
+    "warnings": [
+      {
+        "msg": "not_support_traditional_timelapse",
+        "level": "2",
+        "error_code": "10018003"
+      },
+      {
+        "msg": "not_support_traditional_timelapse",
+        "level": "3",
+        "error_code": "1000C003"
+      }
+    ],
+    "gcode_md5_valid": true,
+    "inside_build_volume": true,
+    "support_used": false,
+    "sha256": "d33b43a79976389db27902303654b793e6ca82bf5a0f09b334082c4a02a002c0"
+  }
+}

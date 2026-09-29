@@ -1,0 +1,30 @@
+{
+  "triangles": {
+    "LOD0": 134500,
+    "LOD1": 70449,
+    "LOD2": 35862
+  },
+  "bones": 41,
+  "material_slots": 2,
+  "body_texture_resolution": 2048,
+  "eye_texture_resolution": 512,
+  "uv_layers": {
+    "SK_CaveCyclops_LOD0": 1,
+    "SK_Cyclops_Eye": 1
+  },
+  "max_influences": 3,
+  "unweighted_vertices": 0,
+  "ue5_editor_tested": false,
+  "fbx_roundtrip": {
+    "armatures": 1,
+    "meshes": 2,
+    "bones": 41,
+    "height_m": 4.412
+  },
+  "zero_area_faces": 0,
+  "nonfinite_vertices": 0,
+  "pose_test": {
+    "description": "left elbow rotation 0.4 rad, head tilt 0.1 rad",
+    "finite_vertices": true
+  }
+}

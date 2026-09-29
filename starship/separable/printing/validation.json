@@ -1,0 +1,534 @@
+{
+  "engines": {
+    "Starship": {
+      "vacuum": 3,
+      "sea_level": 3
+    },
+    "SuperHeavy": 33
+  },
+  "engine_manifest": [
+    {
+      "stage": "Starship",
+      "type": "RVac",
+      "position_mm": [
+        3.6,
+        0.0,
+        119.2
+      ]
+    },
+    {
+      "stage": "Starship",
+      "type": "RVac",
+      "position_mm": [
+        -1.7999999999999994,
+        3.1176914536239795,
+        119.2
+      ]
+    },
+    {
+      "stage": "Starship",
+      "type": "RVac",
+      "position_mm": [
+        -1.8000000000000016,
+        -3.117691453623978,
+        119.2
+      ]
+    },
+    {
+      "stage": "Starship",
+      "type": "SeaLevel",
+      "position_mm": [
+        0.7250000000000001,
+        1.2557368354874359,
+        120.5
+      ]
+    },
+    {
+      "stage": "Starship",
+      "type": "SeaLevel",
+      "position_mm": [
+        -1.45,
+        1.7757378587636622e-16,
+        120.5
+      ]
+    },
+    {
+      "stage": "Starship",
+      "type": "SeaLevel",
+      "position_mm": [
+        0.724999999999999,
+        -1.2557368354874365,
+        120.5
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        5.589512619857267,
+        0.673979727036616,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        5.1076712105107465,
+        2.3682472010581335,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        4.1258553558415345,
+        3.8306941384915767,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        2.740172032417955,
+        4.918166043633994,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        1.0862615785601277,
+        5.524213589547752,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -0.6739797270366162,
+        5.589512619857267,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -2.3682472010581335,
+        5.1076712105107465,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -3.8306941384915767,
+        4.1258553558415345,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -4.918166043633994,
+        2.7401720324179557,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -5.524213589547752,
+        1.0862615785601282,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -5.589512619857267,
+        -0.6739797270366159,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -5.107671210510747,
+        -2.368247201058131,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -4.1258553558415345,
+        -3.8306941384915767,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -2.7401720324179557,
+        -4.918166043633994,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -1.0862615785601284,
+        -5.524213589547752,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        0.6739797270366156,
+        -5.589512619857267,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        2.3682472010581326,
+        -5.107671210510747,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        3.8306941384915767,
+        -4.1258553558415345,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        4.918166043633994,
+        -2.740172032417956,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        5.524213589547752,
+        -1.0862615785601288,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        3.3954055346202225,
+        0.40941574892810423,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        2.5062922410262964,
+        2.32699359744959,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        0.6598604971004685,
+        3.3557389833487234,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -1.4386155288843367,
+        3.1027061349816614,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -2.9875893195787318,
+        1.6645450001544242,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -3.3954055346202225,
+        -0.4094157489281042,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -2.5062922410262964,
+        -2.32699359744959,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -0.6598604971004688,
+        -3.3557389833487234,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        1.4386155288843363,
+        -3.102706134981662,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        2.9875893195787313,
+        -1.6645450001544244,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        1.092089499439253,
+        0.1316834280178113,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -0.6600859436404705,
+        0.879935535711719,
+        7.8
+      ]
+    },
+    {
+      "stage": "Super Heavy",
+      "type": "SeaLevel",
+      "position_mm": [
+        -0.43200355579878275,
+        -1.01161896372953,
+        7.8
+      ]
+    }
+  ],
+  "interface": {
+    "type": "gravity fit D-shaped annular sleeve",
+    "male_outer_radius_mm": 6.3,
+    "female_inner_radius_mm": 6.6,
+    "male_flat_x_mm": 6.0,
+    "female_flat_x_mm": 6.3,
+    "nominal_radial_clearance_mm": 0.3,
+    "sleeve_inner_radius_mm": 5.3,
+    "vacuum_engine_outer_envelope_mm": 5.05,
+    "nominal_engine_side_clearance_mm": 0.25,
+    "male_bottom_z_mm": 118.4,
+    "receiver_floor_z_mm": 117.9,
+    "minimum_nominal_floor_clearance_mm": 0.5,
+    "insertion_depth_mm": 3.1
+  },
+  "base_fit": {
+    "receiver_radius_mm": 7.7,
+    "booster_radius_mm": 7.4,
+    "nominal_radial_clearance_mm": 0.3,
+    "engine_tips_z_mm": 7.8,
+    "base_top_z_mm": 5.0,
+    "nominal_engine_bottom_clearance_mm": 2.8
+  },
+  "slicer_tested": false,
+  "physical_fit_tested": false,
+  "full_wall_thickness_certified": false,
+  "parts": {
+    "Starship": {
+      "connected_components": 1,
+      "component_vertex_counts": [
+        190002
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "triangles": 380000,
+      "volume_cm3": 11.88946,
+      "stl_roundtrip": {
+        "connected_components": 1,
+        "component_vertex_counts": [
+          190002
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "triangles": 380000,
+        "volume_cm3": 11.88946,
+        "height_mm": 81.6
+      }
+    },
+    "SuperHeavy": {
+      "connected_components": 1,
+      "component_vertex_counts": [
+        190002
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "triangles": 380000,
+      "volume_cm3": 19.05759,
+      "stl_roundtrip": {
+        "connected_components": 1,
+        "component_vertex_counts": [
+          190002
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "triangles": 380000,
+        "volume_cm3": 19.05759,
+        "height_mm": 113.7
+      }
+    },
+    "Base": {
+      "connected_components": 1,
+      "component_vertex_counts": [
+        190002
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "triangles": 380000,
+      "volume_cm3": 18.11425,
+      "stl_roundtrip": {
+        "connected_components": 1,
+        "component_vertex_counts": [
+          190002
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "triangles": 380000,
+        "volume_cm3": 18.11425,
+        "height_mm": 13.6
+      }
+    },
+    "Fit_Male": {
+      "connected_components": 1,
+      "component_vertex_counts": [
+        190002
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "triangles": 380000,
+      "volume_cm3": 0.48889,
+      "height_mm": 5.6
+    },
+    "Fit_Female": {
+      "connected_components": 1,
+      "component_vertex_counts": [
+        190002
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "triangles": 380000,
+      "volume_cm3": 0.60464,
+      "height_mm": 5.5
+    }
+  },
+  "engine_outlet_depths_mm": {
+    "Starship": [
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85
+    ],
+    "SuperHeavy": [
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85,
+      0.85
+    ]
+  },
+  "measured_radial_fit_clearance_mm": {
+    "samples": 216,
+    "minimum": 0.3,
+    "maximum": 0.311
+  },
+  "original_display_unchanged": true
+}

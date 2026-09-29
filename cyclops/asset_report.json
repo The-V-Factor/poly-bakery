@@ -1,0 +1,9 @@
+{
+  "height_m": 4.412,
+  "body_vertices": 31056,
+  "body_triangles": 62108,
+  "total_mesh_triangles": 138552,
+  "bones": 41,
+  "materials": 9,
+  "stage": "concept mesh with proxy rig; manual deformation retopology and UE5 import validation still required"
+}

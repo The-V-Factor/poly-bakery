@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "bucket": "poly-bakery",
+  "prefix": "poly-bakery",
+  "patterns": [
+    "*.blend",
+    "*.blend[0-9]*",
+    "*.fbx",
+    "*.glb",
+    "*.stl",
+    "*.3mf",
+    "*.png",
+    "*.jpg",
+    "*.jpeg",
+    "*.exr",
+    "*.hdr"
+  ]
+}
