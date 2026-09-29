@@ -1,6 +1,6 @@
 """Offline behavior tests. No B2 account, credentials, or network required."""
 
-from contextlib import redirect_stdout
+from contextlib import redirect_stdout, redirect_stderr
 import hashlib
 import io
 import os
@@ -8,7 +8,8 @@ from pathlib import Path
 import subprocess
 import tempfile
 import unittest
-from unittest.mock import patch
+from unittest.mock import Mock, patch
+from urllib.parse import parse_qs, unquote, urlsplit
 
 from tools import assets
 
@@ -342,6 +343,48 @@ class WorkflowTests(unittest.TestCase):
         with project.locked():
             project.push(unexpected)
 
+    def test_share_uses_manifest_bucket_without_local_copy_or_mutations(self):
+        path = self.write("模型/a.blend")
+        self.run_command("push")
+        path.unlink()
+        self.config["bucket"] = "another-bucket"
+        assets.write_json(self.root / assets.CONFIG, self.config)
+        project = assets.Project(self.root)
+        before = project.manifest_path.read_bytes(), project.state_path.read_bytes()
+        store = Mock()
+        store.share.return_value = "https://example.test/temporary-link"
+        factory = Mock(return_value=store)
+        self.assertEqual(project.share("模型/a.blend", 24, factory), store.share.return_value)
+        self.assertEqual(factory.call_args.args[0]["bucket"], "test-bucket")
+        store.share.assert_called_once_with(project.files["模型/a.blend"], 86400)
+        self.assertEqual(before, (project.manifest_path.read_bytes(), project.state_path.read_bytes()))
+
+    def test_share_rejects_unknown_modified_paths_and_invalid_lifetimes_before_network(self):
+        path = self.write("a.blend")
+        self.run_command("push")
+        project = assets.Project(self.root)
+        factory = Mock()
+        for name, hours in (("missing.blend", 1), ("../a.blend", 1), ("a.blend", 0), ("a.blend", 169)):
+            with self.assertRaises(assets.AssetError):
+                project.share(name, hours, factory)
+        path.write_bytes(b"unpublished edit")
+        with self.assertRaisesRegex(assets.AssetError, "push or pull"):
+            project.share("a.blend", 1, factory)
+        factory.assert_not_called()
+
+    def test_share_cli_stdout_is_only_url_and_defaults_to_one_hour(self):
+        self.write("a.blend")
+        self.run_command("push")
+        store = Mock()
+        store.share.return_value = "https://example.test/file?Authorization=temporary"
+        out, err = io.StringIO(), io.StringIO()
+        with patch.object(assets.Project, "b2_store", return_value=store), redirect_stdout(out), redirect_stderr(err):
+            code = assets.main(["--root", str(self.root), "share", "a.blend"])
+        self.assertEqual(code, 0)
+        self.assertEqual(out.getvalue(), store.share.return_value + "\n")
+        self.assertIn("1 hour(s)", err.getvalue())
+        self.assertEqual(store.share.call_args.args[1], 3600)
+
 
 class B2AdapterTests(unittest.TestCase):
     """Exercise the actual SDK against Backblaze's in-memory API simulator."""
@@ -431,6 +474,53 @@ class B2AdapterTests(unittest.TestCase):
         self.credentials_path.symlink_to(target)
         with self.assertRaisesRegex(assets.AssetError, "Symlinks"):
             assets.B2Store({"bucket": "test-bucket", "prefix": "project"}, self.root)
+
+    def test_share_url_uses_scoped_download_token_and_encodes_path(self):
+        path = self.root / "source"
+        path.write_bytes(b"share this asset")
+        self.store.config["prefix"] = "models/模型 with spaces"
+        entry = self.store.ensure(path, assets.fingerprint(path))
+        with patch.object(self.store.bucket, "get_download_authorization", wraps=self.store.bucket.get_download_authorization) as auth:
+            url = self.store.share(entry, 604800)
+            auth.assert_called_once_with(entry["key"], 604800)
+        parsed = urlsplit(url)
+        self.assertEqual(unquote(parsed.path), "/file/test-bucket/" + entry["key"])
+        token = parse_qs(parsed.query)["Authorization"][0]
+        self.assertTrue(token.startswith("fake_download_auth_token_"))
+        self.assertNotEqual(token, self.api.account_info.get_account_auth_token())
+
+    def test_share_encodes_special_characters_in_token(self):
+        path = self.root / "source"
+        path.write_bytes(b"asset")
+        entry = self.store.ensure(path, assets.fingerprint(path))
+        with patch.object(self.store.bucket, "get_download_authorization", return_value="temporary+a/b=&token"):
+            query = urlsplit(self.store.share(entry, 3600)).query
+        self.assertEqual(parse_qs(query), {"Authorization": ["temporary+a/b=&token"]})
+
+    def test_share_rejects_replaced_object_before_issuing_token(self):
+        path = self.root / "source"
+        path.write_bytes(b"asset")
+        entry = self.store.ensure(path, assets.fingerprint(path))
+        self.bucket.upload_bytes(b"replaced", entry["key"])
+        with patch.object(self.store.bucket, "get_download_authorization") as auth:
+            with self.assertRaisesRegex(assets.AssetError, "no longer matches"):
+                self.store.share(entry, 3600)
+            auth.assert_not_called()
+
+    def test_share_permission_error_does_not_expose_credentials(self):
+        from b2sdk.v2.exception import Unauthorized
+        path = self.root / "source"
+        path.write_bytes(b"asset")
+        entry = self.store.ensure(path, assets.fingerprint(path))
+        with patch.object(self.store.bucket, "get_download_authorization", side_effect=Unauthorized("sensitive-details", "unauthorized")):
+            with self.assertRaisesRegex(assets.AssetError, "shareFiles") as raised:
+                self.store.share(entry, 3600)
+        self.assertNotIn("sensitive-details", str(raised.exception))
+
+    def test_share_rejects_public_bucket_instead_of_promising_expiry(self):
+        self.store.bucket.type_ = "allPublic"
+        with self.assertRaisesRegex(assets.AssetError, "private bucket"):
+            self.store.share({}, 3600)
 
 
 if __name__ == "__main__":

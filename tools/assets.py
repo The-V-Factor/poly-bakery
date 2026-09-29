@@ -12,6 +12,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from urllib.parse import urlencode
 
 from pathspec import GitIgnoreSpec
 
@@ -322,6 +323,21 @@ class Project:
             n: entry for n, entry in self.files.items() if n not in names}})
         print(f"Forgot {len(set(names))} references; local files and B2 objects were kept")
 
+    def share(self, name, hours, store_factory):
+        if not 1 <= hours <= 168:
+            raise AssetError("--hours must be between 1 and 168 (7 days)")
+        path = self.path(name)
+        if name not in self.files:
+            raise AssetError(f"Not in manifest; push this asset first: {name}")
+        entry = self.files[name]
+        local = fingerprint(path)
+        if local is not None and local != content(entry):
+            raise AssetError(f"Local asset differs from manifest; push or pull before sharing: {name}")
+        store = store_factory({**self.config, "bucket": entry["bucket"]})
+        url = store.share(entry, hours * 3600)
+        self.unchanged()
+        return url
+
 
 class B2Store:
     def __init__(self, config, root):
@@ -372,6 +388,20 @@ class B2Store:
         except self.error_type as exc:
             raise AssetError(f"B2 download failed ({type(exc).__name__})") from None
 
+    def share(self, entry, seconds):
+        if self.bucket.type_ != "allPrivate":
+            raise AssetError("Temporary sharing requires a private bucket; public files remain publicly downloadable")
+        try:
+            # Download tokens work by name, so reject externally replaced objects.
+            version = self.bucket.get_file_info_by_name(entry["key"])
+            if (version.id_ != entry["file_id"] or version.size != entry["size"]
+                    or version.file_info.get("sha256") != entry["sha256"]):
+                raise AssetError("B2 object no longer matches this manifest version; cannot share by name")
+            token = self.bucket.get_download_authorization(entry["key"], seconds)
+            return self.bucket.get_download_url(entry["key"]) + "?" + urlencode({"Authorization": token})
+        except self.error_type as exc:
+            raise AssetError(f"B2 sharing failed ({type(exc).__name__}); check readFiles/shareFiles permissions") from None
+
 
 def find_root(start):
     start = Path(start).resolve()
@@ -392,6 +422,9 @@ def main(argv=None):
     commands.add_parser("pull", help="restore manifest versions without overwriting local changes")
     forget = commands.add_parser("forget", help="remove references only, never delete content")
     forget.add_argument("paths", nargs="+", help="exact project-relative paths")
+    share = commands.add_parser("share", help="print a temporary download link for one asset")
+    share.add_argument("path", help="exact project-relative path from the manifest")
+    share.add_argument("--hours", type=int, default=1, help="link lifetime in hours: 1–168 (default: 1)")
     args = parser.parse_args(argv)
     try:
         project = Project(args.root or find_root(Path.cwd()))
@@ -402,6 +435,10 @@ def main(argv=None):
                 project.ignore()
             elif args.command == "forget":
                 project.forget(args.paths)
+            elif args.command == "share":
+                url = project.share(args.path, args.hours, project.b2_store)
+                print(f"Download link valid for {args.hours} hour(s). Anyone with the link can download it.", file=sys.stderr)
+                print(url)
             else:
                 getattr(project, args.command)(project.b2_store)
         return 0
