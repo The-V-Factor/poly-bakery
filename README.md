@@ -8,6 +8,7 @@
 | 惊奇泡泡 | [制作与打印说明](paopao/README.md) | [Jingqi_Paopao.blend](paopao/Jingqi_Paopao.blend) | [彩色](paopao/renders/01_color.png) | [printing/](paopao/printing/) |
 | 星舰一体版 | [制作与打印说明](starship/README.md) | [Starship_FullStack.blend](starship/Starship_FullStack.blend) | [完整组合](starship/renders/01_full_stack.png) | [printing/](starship/printing/) |
 | 星舰分体版 | [装配与打印说明](starship/separable/README.md) | [Starship_Separable.blend](starship/separable/Starship_Separable.blend) | [拆分](starship/separable/renders/02_separated.png) | [printing/](starship/separable/printing/) |
+| 星舰内部与发射动画 | [播放说明](starship/separable/animation.md) | [Starship_Interior_Animation.blend](starship/separable/Starship_Interior_Animation.blend) | [内部](starship/separable/renders/animation_interior.png) · [20 秒视频](starship/separable/renders/Starship_Flight.mp4) | [A1 mini 可拆外壳四盘](starship/separable/printing/a1mini/README.md) |
 
 ## 目录约定
 

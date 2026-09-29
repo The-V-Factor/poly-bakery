@@ -1,11 +1,15 @@
 # 可分体 Starship + Super Heavy
 
-新版为三个可拆装部分：Starship 飞船、Super Heavy 助推器（含热分级环）、独立底座。装配总高约 200 mm，底座直径约 66 mm。原有一体版本保留在上一级目录。
+分体结构由三大部分组成：Starship 飞船、Super Heavy 助推器（含热分级环）、独立底座。装配总高约 200 mm，底座直径约 66 mm。原有一体版本保留在上一级目录。
+
+**想看内部和发射动画？** 打开 [动画模型](Starship_Interior_Animation.blend)，按空格播放。也可以直接看 [20 秒视频](renders/Starship_Flight.mp4)。[简单操作说明](animation.md) 写了怎么看储箱、点火和分离。
+
+**A1 mini、0.4 mm 喷嘴、PETG 打印：** 使用 [可拆外壳版的四盘工程](printing/a1mini/Starship_A1mini_PETG_4plates.3mf)，先看 [简单打印说明](printing/a1mini/README.md)。它包含打印用内部结构；下方表格中的旧打印件仍保留。
 
 ## 打开与拆开
 
 - [展示模型](Starship_Separable.blend)：有金属材质、隔热瓦和独立发动机。
-- [打印模型](printing/Starship_Separable_Print.blend)：三个独立封闭网格，包含全部 39 个简化发动机喷口。
+- [旧版打印模型](printing/Starship_Separable_Print.blend)：三个独立封闭网格，包含全部 39 个简化发动机喷口。
 - [拆分预览](renders/02_separated.png)、[星舰六台发动机](renders/03_starship_6_engines.png)、[助推器 33 台发动机](renders/04_booster_33_engines.png)、[打印网格预览](renders/05_print_separated.png)。
 
 展示文件打开时是装配状态。在右上角 Outliner 选择 `MOVE_Starship`，按 **G → Z**，向上拖动即可整级拆开；选择 `MOVE_SuperHeavy` 可把助推器从底座抬起。选择这些控制器按 **Alt+G** 恢复装配位置。请移动控制器，避免只移动某一块隔热瓦或焊缝。
@@ -20,7 +24,7 @@
 
 本件是按真实两级关系制作的外形参考模型，不对应特定最新飞行架次或工程图。热分级环、发动机内部和管线有所简化。**D 形环套是为模型拆装设计的接口，不是实箭的分离机构。**
 
-## 打印文件
+## 旧版打印文件（不含内部件）
 
 | 部件 | 推荐使用明确毫米单位的 3MF | STL（坐标为毫米） |
 |---|---|---|
@@ -41,7 +45,7 @@
 
 级间接口名义单边间隙 0.30 mm；在重建后的实际网格上采样 216 个径向位置，间隙为 0.300–0.311 mm。底座与助推器也留出名义单边 0.30 mm 间隙。设备误差、首层扩张、树脂收缩及涂层都会影响配合，试配件不能省略。缩放整个模型会同时缩放间隙。
 
-## 打印条件与验证范围
+## 旧版打印条件与验证范围
 
 打印版将细部加厚、并为 39 个喷口制作约 0.85 mm 深的浅凹腔。20 cm 整体尺寸下，助推器喷口的名义壁厚仅约 0.36 mm，普通 0.4 mm 喷嘴可能丢失细节；要表现喷口，优先考虑高精度树脂或小喷嘴 FDM，并在切片预览中逐个检查。
 

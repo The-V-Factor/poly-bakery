@@ -1,0 +1,289 @@
+{
+  "printer": "Bambu Lab A1 mini",
+  "nozzle_mm": 0.4,
+  "material": "Generic PETG",
+  "assembled_height_mm": 200,
+  "shell_design_mm": 1.4,
+  "pipe_diameter_mm": 1.2,
+  "pin_diameter_mm": 2,
+  "pin_radial_clearance_mm": 0.15,
+  "physical_fit_tested": false,
+  "slicer_tested": true,
+  "parts": {
+    "SuperHeavy_Rear": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 4816.611,
+      "print_dimensions_mm": [
+        24.8,
+        20.03,
+        113.7
+      ],
+      "stl_roundtrip": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_mm3": 4816.611,
+        "triangles": 3087118
+      }
+    },
+    "SuperHeavy_Cover": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 3109.774,
+      "print_dimensions_mm": [
+        24.8,
+        13.8,
+        102.7
+      ],
+      "stl_roundtrip": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_mm3": 3109.774,
+        "triangles": 2024468
+      }
+    },
+    "Starship_Rear": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 3401.068,
+      "print_dimensions_mm": [
+        25.378,
+        14.797,
+        81.6
+      ],
+      "stl_roundtrip": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_mm3": 3401.068,
+        "triangles": 2271352
+      }
+    },
+    "Starship_Cover": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 2010.38,
+      "print_dimensions_mm": [
+        14.851,
+        8.919,
+        66.7
+      ],
+      "stl_roundtrip": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_mm3": 2010.38,
+        "triangles": 1289422
+      }
+    },
+    "SuperHeavy_Interior": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 5502.319,
+      "print_dimensions_mm": [
+        10.395,
+        93.0,
+        7.85
+      ],
+      "stl_roundtrip": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_mm3": 5502.319,
+        "triangles": 1075542
+      }
+    },
+    "Starship_Interior": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 2196.893,
+      "print_dimensions_mm": [
+        10.395,
+        40.0,
+        7.85
+      ],
+      "stl_roundtrip": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_mm3": 2196.893,
+        "triangles": 497904
+      }
+    },
+    "Starship_Payload": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 350.669,
+      "print_dimensions_mm": [
+        8.4,
+        13.0,
+        5.798
+      ],
+      "stl_roundtrip": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_mm3": 350.669,
+        "triangles": 184800
+      }
+    },
+    "Base": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 18114.258,
+      "print_dimensions_mm": [
+        65.999,
+        65.999,
+        13.6
+      ],
+      "stl_roundtrip": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_mm3": 18114.258,
+        "triangles": 380000
+      }
+    },
+    "Fit_Sockets": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 480.194,
+      "print_dimensions_mm": [
+        22.0,
+        8.0,
+        7.0
+      ],
+      "stl_roundtrip": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_mm3": 480.194,
+        "triangles": 234496
+      }
+    },
+    "Fit_Pin": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "volume_mm3": 151.911,
+      "print_dimensions_mm": [
+        8.0,
+        8.4,
+        7.0
+      ],
+      "stl_roundtrip": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_mm3": 151.911,
+        "triangles": 84522
+      }
+    }
+  },
+  "source_files_unchanged": {
+    "printing/Starship_Separable_Print.blend": "c7ab11648374437db379ed0a6548b0f6eefa38adcca0ed22e17246c59de5ba04",
+    "Starship_Interior_Animation.blend": "105cde41535879d3c3d4674b91caf1a3de32d4f3d4e242b7b9e264cca2164e77",
+    "Starship_Separable.blend": "b3c9bb0d1ce8787c1a35dcdee1c494b648d8386bee0fb764cf91073915be7aa2",
+    "printing/Fit_Female.stl": "06dc5865a149024947b9a3bcb675de206940a7bc28b64ae2d0c480f51f3f473f",
+    "printing/SuperHeavy.stl": "965838e9b08614298d33302b6e622d11fa6e70a4eb823f9b66da421cad5967c0",
+    "printing/Fit_Male.stl": "27f75a0687eedcedb80493b5428766d39bf49fa3faec8b7170502b1b9339d1ec",
+    "printing/Base.stl": "da4055d4361f3de5378067e840ed8ec2b6ff93855bef4a0f2fd49133ee0ff3b3",
+    "printing/Starship.stl": "bb0a67991d35566aecf45c385a55e17a16c2b98cd600190478ea7bc9b6077485",
+    "printing/Starship.3mf": "c61bb1cc24632e9f4381a9d0103dcfc184dd9e1e3c5dfcf05e1bdbcb63cbe17f",
+    "printing/Fit_Male.3mf": "2ba39e64d2ae072a90f444a901d38a007ccf8ac6abddd5a6972b77abe74d0c53",
+    "printing/Base.3mf": "b4dbe5b998a78ba9ad87a73d07deaefa51f3a00c405e948c007099619888135a",
+    "printing/SuperHeavy.3mf": "3845033bd7b0a67ba99df6896fbd0706cd89bd022c19a90197fe470338965490",
+    "printing/Fit_Female.3mf": "c483d8a8cce402c5c7f5a4036327a6f427af518d17871d73272dd7da606d1bc3"
+  },
+  "blender": "5.2.1 LTS",
+  "measured_cover_radial_clearance": {
+    "Starship": {
+      "sample_count": 144,
+      "minimum_mm": 0.1482,
+      "maximum_mm": 0.1512,
+      "cover_rear_intersections": 0,
+      "tank_to_lower_bridge_mm": 0.4,
+      "tank_to_upper_bridge_mm": 0.2
+    },
+    "SuperHeavy": {
+      "sample_count": 144,
+      "minimum_mm": 0.1482,
+      "maximum_mm": 0.1512,
+      "cover_rear_intersections": 0,
+      "tank_to_lower_bridge_mm": 0.2,
+      "tank_to_upper_bridge_mm": 1.2
+    }
+  },
+  "slicer": {
+    "version": "Bambu Studio 02.08.02.61",
+    "plates": [
+      {
+        "plate": 1,
+        "name": "01 - Fit test first",
+        "objects": 2,
+        "first_layer_bounds_mm": [
+          74.33346,
+          65.33391,
+          105.66654000000001,
+          114.67113
+        ],
+        "predicted_seconds": 828,
+        "filament_grams": 0.92,
+        "warnings": [
+          "not_support_traditional_timelapse"
+        ]
+      },
+      {
+        "plate": 2,
+        "name": "02 - Starship",
+        "objects": 4,
+        "first_layer_bounds_mm": [
+          58.80827000000001,
+          50.66881000000001,
+          122.47183000000001,
+          131.27086
+        ],
+        "predicted_seconds": 6260,
+        "filament_grams": 11.24,
+        "warnings": [
+          "not_support_traditional_timelapse"
+        ]
+      },
+      {
+        "plate": 3,
+        "name": "03 - Super Heavy",
+        "objects": 3,
+        "first_layer_bounds_mm": [
+          38.8293,
+          59.793000000000006,
+          158.68796,
+          118.20289000000001
+        ],
+        "predicted_seconds": 10218,
+        "filament_grams": 21.25,
+        "warnings": [
+          "not_support_traditional_timelapse"
+        ]
+      },
+      {
+        "plate": 4,
+        "name": "04 - Base",
+        "objects": 1,
+        "first_layer_bounds_mm": [
+          52.58487,
+          52.584700000000005,
+          127.41515000000001,
+          127.41514000000001
+        ],
+        "predicted_seconds": 2492,
+        "filament_grams": 12.33,
+        "warnings": [
+          "not_support_traditional_timelapse"
+        ]
+      }
+    ],
+    "automatic_mesh_repairs": 0,
+    "project_sha256": "dd3fbb544283dd30f6c03f69bdd6f3c8c63d492ba9c509b8c0102a0eb0cffbc4"
+  }
+}

@@ -371,6 +371,13 @@
       "sha256": "f411cdff31bd51bfe993a34a1a83c9028397afee18bdc68a1858366bdecc994b",
       "size": 2014331
     },
+    "starship/separable/Starship_Interior_Animation.blend": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da7398936_d20260929_m095904_c005_v0501026_t0002_u01790675944091",
+      "key": "poly-bakery/sha256/10/105cde41535879d3c3d4674b91caf1a3de32d4f3d4e242b7b9e264cca2164e77",
+      "sha256": "105cde41535879d3c3d4674b91caf1a3de32d4f3d4e242b7b9e264cca2164e77",
+      "size": 1279360
+    },
     "starship/separable/Starship_Separable.blend": {
       "bucket": "poly-bakery",
       "file_id": "4_z4eb58f5f73ebe470a70f0712_f113d325aae3659af_d20260929_m014849_c005_v0501048_t0029_u01790646529921",
@@ -455,6 +462,132 @@
       "sha256": "965838e9b08614298d33302b6e622d11fa6e70a4eb823f9b66da421cad5967c0",
       "size": 19000084
     },
+    "starship/separable/printing/a1mini/Base.stl": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739896c_d20260929_m095906_c005_v0501026_t0055_u01790675946983",
+      "key": "poly-bakery/sha256/05/058007375834b58bba018f937b0b1ac7ac58de702ded6f665d4466c77fcd6b20",
+      "sha256": "058007375834b58bba018f937b0b1ac7ac58de702ded6f665d4466c77fcd6b20",
+      "size": 19000084
+    },
+    "starship/separable/printing/a1mini/Fit_Pin.stl": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da7398a62_d20260929_m095917_c005_v0501026_t0050_u01790675957423",
+      "key": "poly-bakery/sha256/6f/6fbb2f23d5f431b1bf1682ddae66c02b6f938adc724d48df7e7f3983004040dc",
+      "sha256": "6fbb2f23d5f431b1bf1682ddae66c02b6f938adc724d48df7e7f3983004040dc",
+      "size": 4226184
+    },
+    "starship/separable/printing/a1mini/Fit_Sockets.stl": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da7398a92_d20260929_m095920_c005_v0501026_t0041_u01790675960376",
+      "key": "poly-bakery/sha256/e8/e830f3d9fa81a0ea7d077f9e7b750e7ba7b6eb7084fec126fc270b2490ea0036",
+      "sha256": "e830f3d9fa81a0ea7d077f9e7b750e7ba7b6eb7084fec126fc270b2490ea0036",
+      "size": 11724884
+    },
+    "starship/separable/printing/a1mini/Starship_A1mini_PETG_4plates.3mf": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f200671ab08e47883_d20260929_m095929_c005_v0501050_t0042_u01790675969646",
+      "key": "poly-bakery/sha256/dd/dd3fbb544283dd30f6c03f69bdd6f3c8c63d492ba9c509b8c0102a0eb0cffbc4",
+      "sha256": "dd3fbb544283dd30f6c03f69bdd6f3c8c63d492ba9c509b8c0102a0eb0cffbc4",
+      "size": 118027363
+    },
+    "starship/separable/printing/a1mini/Starship_Cover.stl": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da7399178_d20260929_m100046_c005_v0501026_t0036_u01790676046067",
+      "key": "poly-bakery/sha256/96/963ff270bff6da21bd0b9c1afcbe02a814373c32a6892ba265f410908d76d22e",
+      "sha256": "963ff270bff6da21bd0b9c1afcbe02a814373c32a6892ba265f410908d76d22e",
+      "size": 64471184
+    },
+    "starship/separable/printing/a1mini/Starship_Interior.stl": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da7399484_d20260929_m100128_c005_v0501026_t0004_u01790676088104",
+      "key": "poly-bakery/sha256/fd/fd944b109d9b73feb0b923caece75ddfb7f2f35260f2b9f34fab8bcb4ed8c39b",
+      "sha256": "fd944b109d9b73feb0b923caece75ddfb7f2f35260f2b9f34fab8bcb4ed8c39b",
+      "size": 24895284
+    },
+    "starship/separable/printing/a1mini/Starship_Opening_Print.blend": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f200796ad396dbec1_d20260929_m100208_c005_v0501005_t0032_u01790676128159",
+      "key": "poly-bakery/sha256/a7/a769ca32cdd1584cfa887e06bf98644f8c850700f2ff6594939885c01067cbe0",
+      "sha256": "a769ca32cdd1584cfa887e06bf98644f8c850700f2ff6594939885c01067cbe0",
+      "size": 247628319
+    },
+    "starship/separable/printing/a1mini/Starship_Payload.stl": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739ac13_d20260929_m100519_c005_v0501026_t0041_u01790676319596",
+      "key": "poly-bakery/sha256/bd/bd8c9ad53f6db6f6a3027d5f4d609039ef35aae3d4c2dde20fbdae5918cf8968",
+      "sha256": "bd8c9ad53f6db6f6a3027d5f4d609039ef35aae3d4c2dde20fbdae5918cf8968",
+      "size": 9240084
+    },
+    "starship/separable/printing/a1mini/Starship_Rear.stl": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f20003f8270c8e701_d20260929_m100524_c005_v0501000_t0043_u01790676324852",
+      "key": "poly-bakery/sha256/81/8172c781250fec5025f5df09ee0b447f16f9c6226ace07c0442109586acb5787",
+      "sha256": "8172c781250fec5025f5df09ee0b447f16f9c6226ace07c0442109586acb5787",
+      "size": 113567684
+    },
+    "starship/separable/printing/a1mini/SuperHeavy_Cover.stl": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739b5d5_d20260929_m100704_c005_v0501026_t0031_u01790676424457",
+      "key": "poly-bakery/sha256/cf/cf3912d0d419bdf2ea4068ba41cfb47d08aac297eb8313dd630bc83f91813b31",
+      "sha256": "cf3912d0d419bdf2ea4068ba41cfb47d08aac297eb8313dd630bc83f91813b31",
+      "size": 101223484
+    },
+    "starship/separable/printing/a1mini/SuperHeavy_Interior.stl": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739be9a_d20260929_m100840_c005_v0501026_t0011_u01790676520909",
+      "key": "poly-bakery/sha256/05/05df95c49aa7bde3ffe3deabc465e4aa7ae60acd14b91b4e0b47998f8913eac4",
+      "sha256": "05df95c49aa7bde3ffe3deabc465e4aa7ae60acd14b91b4e0b47998f8913eac4",
+      "size": 53777184
+    },
+    "starship/separable/printing/a1mini/SuperHeavy_Rear.stl": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f200119991bdbb49c_d20260929_m100924_c005_v0501051_t0047_u01790676564409",
+      "key": "poly-bakery/sha256/fa/fa779621ab0fdfcb2ddd1bf2096b8656e3d6086ad4150eb84d025d3ac07df4b8",
+      "sha256": "fa779621ab0fdfcb2ddd1bf2096b8656e3d6086ad4150eb84d025d3ac07df4b8",
+      "size": 154355984
+    },
+    "starship/separable/printing/a1mini/closed.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739d04e_d20260929_m101200_c005_v0501026_t0058_u01790676720476",
+      "key": "poly-bakery/sha256/0d/0deed3dc654fc61cff57c0818019b6fd992cc529835b9cf874179a706756f6ce",
+      "sha256": "0deed3dc654fc61cff57c0818019b6fd992cc529835b9cf874179a706756f6ce",
+      "size": 1401088
+    },
+    "starship/separable/printing/a1mini/opened.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739d09c_d20260929_m101203_c005_v0501026_t0009_u01790676723201",
+      "key": "poly-bakery/sha256/c7/c7ed4b7c7efa4dddd9dff550f4aedefa0e90f6b0a92c1ead2b8877e9671db69d",
+      "sha256": "c7ed4b7c7efa4dddd9dff550f4aedefa0e90f6b0a92c1ead2b8877e9671db69d",
+      "size": 1447519
+    },
+    "starship/separable/printing/a1mini/plate_1.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739d0c4_d20260929_m101204_c005_v0501026_t0000_u01790676724667",
+      "key": "poly-bakery/sha256/d8/d830dff1d98c967b859d5f60323204a761239668eb16a5a884fc8486f85a5458",
+      "sha256": "d830dff1d98c967b859d5f60323204a761239668eb16a5a884fc8486f85a5458",
+      "size": 9103
+    },
+    "starship/separable/printing/a1mini/plate_2.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739d0de_d20260929_m101206_c005_v0501026_t0035_u01790676726217",
+      "key": "poly-bakery/sha256/f0/f00d0eb4518508906e3de911d1e3a41edb928253b09f17b628da890315b7fb59",
+      "sha256": "f00d0eb4518508906e3de911d1e3a41edb928253b09f17b628da890315b7fb59",
+      "size": 18062
+    },
+    "starship/separable/printing/a1mini/plate_3.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739d100_d20260929_m101207_c005_v0501026_t0032_u01790676727756",
+      "key": "poly-bakery/sha256/c0/c0d87aec4ec9ba8cfeaba4f75902c05063fbe0083d560bd2a5f55f1271d61d38",
+      "sha256": "c0d87aec4ec9ba8cfeaba4f75902c05063fbe0083d560bd2a5f55f1271d61d38",
+      "size": 18017
+    },
+    "starship/separable/printing/a1mini/plate_4.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739d12a_d20260929_m101208_c005_v0501026_t0026_u01790676728854",
+      "key": "poly-bakery/sha256/99/9912d2849289c615e66ea7b38a8e04d0688801ed6bf141f26ee4ce124eb690d0",
+      "sha256": "9912d2849289c615e66ea7b38a8e04d0688801ed6bf141f26ee4ce124eb690d0",
+      "size": 8665
+    },
     "starship/separable/renders/01_assembled.png": {
       "bucket": "poly-bakery",
       "file_id": "4_z4eb58f5f73ebe470a70f0712_f113d325aae36b5a6_d20260929_m015311_c005_v0501048_t0050_u01790646791457",
@@ -489,6 +622,48 @@
       "key": "poly-bakery/sha256/85/85357b51fe4e6b1a7f13dca07a1e05f4da91a011deb104d2f0b7eebbc14a4207",
       "sha256": "85357b51fe4e6b1a7f13dca07a1e05f4da91a011deb104d2f0b7eebbc14a4207",
       "size": 1845585
+    },
+    "starship/separable/renders/Starship_Flight.mp4": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739d146_d20260929_m101209_c005_v0501026_t0029_u01790676729825",
+      "key": "poly-bakery/sha256/02/02f4d4670e4ca0b83510cf4e345f52a198332009a80f2326939ee30e81be54ec",
+      "sha256": "02f4d4670e4ca0b83510cf4e345f52a198332009a80f2326939ee30e81be54ec",
+      "size": 940809
+    },
+    "starship/separable/renders/animation_hot_staging.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739d190_d20260929_m101212_c005_v0501026_t0049_u01790676732188",
+      "key": "poly-bakery/sha256/0f/0f9784cff81c19e9cd924bcaa5d307d3f203bfeec794367c83433bd3136a9f3b",
+      "sha256": "0f9784cff81c19e9cd924bcaa5d307d3f203bfeec794367c83433bd3136a9f3b",
+      "size": 1666378
+    },
+    "starship/separable/renders/animation_ignition.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739d1ba_d20260929_m101213_c005_v0501026_t0015_u01790676733976",
+      "key": "poly-bakery/sha256/15/1518ac8467da3d0fd1a82f2a579bf232ce5398e13ce8d620a44866120644344c",
+      "sha256": "1518ac8467da3d0fd1a82f2a579bf232ce5398e13ce8d620a44866120644344c",
+      "size": 1649319
+    },
+    "starship/separable/renders/animation_interior.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739d1e4_d20260929_m101215_c005_v0501026_t0004_u01790676735775",
+      "key": "poly-bakery/sha256/df/df8dc905bb55bf29856e8be3da0bd74418d2ac98f90831e3c432b4064918bddc",
+      "sha256": "df8dc905bb55bf29856e8be3da0bd74418d2ac98f90831e3c432b4064918bddc",
+      "size": 1703094
+    },
+    "starship/separable/renders/animation_liftoff.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739d20e_d20260929_m101217_c005_v0501026_t0058_u01790676737339",
+      "key": "poly-bakery/sha256/57/577a7191812db8c906692f51f9a4c8898da522a29ccd3aa8b3f52939f67533d6",
+      "sha256": "577a7191812db8c906692f51f9a4c8898da522a29ccd3aa8b3f52939f67533d6",
+      "size": 1640031
+    },
+    "starship/separable/renders/animation_separated.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f1020571da739d244_d20260929_m101219_c005_v0501026_t0034_u01790676739481",
+      "key": "poly-bakery/sha256/f3/f3983478a50904a945fa4f61c881eaa06c655dbcee282af8ac919943dd13597e",
+      "sha256": "f3983478a50904a945fa4f61c881eaa06c655dbcee282af8ac919943dd13597e",
+      "size": 1632263
     }
   },
   "version": 1

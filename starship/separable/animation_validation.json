@@ -1,0 +1,97 @@
+{
+  "blender": "5.2.1 LTS",
+  "frames": 480,
+  "fps": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "tanks": [
+    {
+      "name": "TANK | MOVE_Starship / CH4",
+      "parent": "MOVE_Starship",
+      "nonmanifold_edges": 0,
+      "volume_m3": 2.1959902542507466e-06
+    },
+    {
+      "name": "TANK | MOVE_Starship / LOX",
+      "parent": "MOVE_Starship",
+      "nonmanifold_edges": 0,
+      "volume_m3": 2.5996877248209026e-06
+    },
+    {
+      "name": "TANK | MOVE_SuperHeavy / CH4",
+      "parent": "MOVE_SuperHeavy",
+      "nonmanifold_edges": 0,
+      "volume_m3": 4.079911258880525e-06
+    },
+    {
+      "name": "TANK | MOVE_SuperHeavy / LOX",
+      "parent": "MOVE_SuperHeavy",
+      "nonmanifold_edges": 0,
+      "volume_m3": 7.713187055237933e-06
+    }
+  ],
+  "all_480_frames_checked": true,
+  "engine_plume_count": 39,
+  "flame_anchors_follow_bells": true,
+  "wide_shots_keep_both_stages_in_frame": true,
+  "hot_staging_ignition_frame": 289,
+  "separation_begins_after_frame": 312,
+  "original_files_unchanged": {
+    "Starship_FullStack.blend": "1e9dea3f6e2043265ac684437b0fd672854311d0059c9704d0707514882d6925",
+    "printing/Starship_FullStack_200mm.3mf": "51b52a78c51fb982589910ba41dfd6f26174bfeebb8892c526bf3d268afb11da",
+    "printing/Starship_FullStack_200mm.stl": "51281e5fd62891b5bb4f6d67e8d6f6f592a74881e6df000650f303c62a7e072b",
+    "printing/Starship_Print_200mm.blend": "19498dd7606551fc2d6b6a0a333d9d91ef56e0779e3b9e9eabb8017e78d2ee23",
+    "separable/Starship_Separable.blend": "b3c9bb0d1ce8787c1a35dcdee1c494b648d8386bee0fb764cf91073915be7aa2",
+    "separable/printing/Base.3mf": "b4dbe5b998a78ba9ad87a73d07deaefa51f3a00c405e948c007099619888135a",
+    "separable/printing/Base.stl": "da4055d4361f3de5378067e840ed8ec2b6ff93855bef4a0f2fd49133ee0ff3b3",
+    "separable/printing/Fit_Female.3mf": "c483d8a8cce402c5c7f5a4036327a6f427af518d17871d73272dd7da606d1bc3",
+    "separable/printing/Fit_Female.stl": "06dc5865a149024947b9a3bcb675de206940a7bc28b64ae2d0c480f51f3f473f",
+    "separable/printing/Fit_Male.3mf": "2ba39e64d2ae072a90f444a901d38a007ccf8ac6abddd5a6972b77abe74d0c53",
+    "separable/printing/Fit_Male.stl": "27f75a0687eedcedb80493b5428766d39bf49fa3faec8b7170502b1b9339d1ec",
+    "separable/printing/Starship.3mf": "c61bb1cc24632e9f4381a9d0103dcfc184dd9e1e3c5dfcf05e1bdbcb63cbe17f",
+    "separable/printing/Starship.stl": "bb0a67991d35566aecf45c385a55e17a16c2b98cd600190478ea7bc9b6077485",
+    "separable/printing/Starship_Separable_Print.blend": "c7ab11648374437db379ed0a6548b0f6eefa38adcca0ed22e17246c59de5ba04",
+    "separable/printing/SuperHeavy.3mf": "3845033bd7b0a67ba99df6896fbd0706cd89bd022c19a90197fe470338965490",
+    "separable/printing/SuperHeavy.stl": "965838e9b08614298d33302b6e622d11fa6e70a4eb823f9b66da421cad5967c0"
+  },
+  "no_external_textures": true,
+  "engineering_replica": false,
+  "b2_uploaded": true,
+  "video_decode_verification": {
+    "decode_completed": true,
+    "decoded_frames": 480,
+    "duration_seconds": 20,
+    "fps": 24,
+    "height": 1080,
+    "snapshot_frames": [
+      1,
+      144,
+      145,
+      168,
+      169,
+      192,
+      204,
+      205,
+      250,
+      288,
+      289,
+      300,
+      312,
+      313,
+      336,
+      337,
+      450,
+      480
+    ],
+    "width": 1920,
+    "decoder": "macOS AVFoundation",
+    "file": "renders/Starship_Flight.mp4",
+    "sha256": "02f4d4670e4ca0b83510cf4e345f52a198332009a80f2326939ee30e81be54ec",
+    "size": 940809
+  },
+  "validation_date": "2026-09-29",
+  "asset_tool_regression_tests_passed": 40,
+  "generated_assets_ignored_by_git": 7
+}

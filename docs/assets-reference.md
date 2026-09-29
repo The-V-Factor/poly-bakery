@@ -110,3 +110,5 @@ B2 Native API 的下载授权用于按名称下载，因此生成链接前会核
 2026-09-29 已完成首次全量上传：70 个资产，共 565,165,460 字节（约 539 MiB），清单记录 70 个 B2 对象。`status --check` 检查结果为 70 个引用、70 个本地文件、0 个差异；另外从 B2 下载了 `cyclops/CaveCyclops.blend` 和 `cyclops/textures/T_CyclopsEye_NormalGL.png` 到临时目录，两者的 SHA-256 均与清单一致。
 
 更换桶或凭据后，建议先对一个小资产完成上传与恢复验证，再进行全量入库。
+
+2026-09-29 星舰更新已上传 25 个新资产，共 935,551,430 字节，包含内部结构动画、视频及 A1 mini 可拆外壳四盘打印文件。原来的 70 个引用不变；`status --check` 为 95 个引用、95 个本地文件、0 个差异。从 B2 按清单版本 ID 下载抽查了 `Starship_Interior_Animation.blend`、`Starship_Flight.mp4` 和 `printing/a1mini/Fit_Pin.stl`，三者的大小及 SHA-256 均与清单一致。
