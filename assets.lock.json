@@ -77,6 +77,34 @@
       "sha256": "2dcc70379cf7a3214c53372eb6c1a46ea10952c615888ad43b1177c7bb98d0ff",
       "size": 26865866
     },
+    "cyclops/printing/a1mini/CaveCyclops_170mm.stl": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f103b6718661045c5_d20260930_m145841_c005_v0501026_t0003_u01790780321631",
+      "key": "poly-bakery/sha256/54/54e03bbd752087b788894b08a3f9216f91ba79c124360d78660bf252c54b1bb8",
+      "sha256": "54e03bbd752087b788894b08a3f9216f91ba79c124360d78660bf252c54b1bb8",
+      "size": 47500084
+    },
+    "cyclops/printing/a1mini/CaveCyclops_A1mini_PETG_170mm.3mf": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f103b671866104701_d20260930_m145858_c005_v0501026_t0016_u01790780338193",
+      "key": "poly-bakery/sha256/21/21030b4ed97b0b19db25130034aad4bcd76eb52849ec2145d266e9dbd51e0824",
+      "sha256": "21030b4ed97b0b19db25130034aad4bcd76eb52849ec2145d266e9dbd51e0824",
+      "size": 22241041
+    },
+    "cyclops/printing/a1mini/plate_1.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f103b67186610476b_d20260930_m145903_c005_v0501026_t0014_u01790780343015",
+      "key": "poly-bakery/sha256/0d/0d2a5c58d63ebc8d857328a01ca6586f2ddd9a21dd71db4e6b19c6bcd89bc400",
+      "sha256": "0d2a5c58d63ebc8d857328a01ca6586f2ddd9a21dd71db4e6b19c6bcd89bc400",
+      "size": 21711
+    },
+    "cyclops/printing/a1mini/preview.png": {
+      "bucket": "poly-bakery",
+      "file_id": "4_z4eb58f5f73ebe470a70f0712_f103b67186610477f_d20260930_m145904_c005_v0501026_t0042_u01790780344083",
+      "key": "poly-bakery/sha256/9d/9d84d5b519fcba45bb6fb27ba2b76b882896e82b75cdf6f0654a0ba63707255b",
+      "sha256": "9d84d5b519fcba45bb6fb27ba2b76b882896e82b75cdf6f0654a0ba63707255b",
+      "size": 940156
+    },
     "cyclops/printing/preview_face.png": {
       "bucket": "poly-bakery",
       "file_id": "4_z4eb58f5f73ebe470a70f0712_f1021b7eceeae29c7_d20260929_m013754_c005_v0501051_t0021_u01790645874864",

@@ -1,0 +1,125 @@
+{
+  "dimensions_mm": [
+    115.1802,
+    98.5982,
+    170.0
+  ],
+  "bounds_mm": [
+    [
+      -63.307167053222656,
+      -49.29908752441406,
+      0.0
+    ],
+    [
+      51.87299728393555,
+      49.299102783203125,
+      170.0
+    ]
+  ],
+  "vertices": 474986,
+  "triangles": 950000,
+  "components": 1,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "zero_area_faces": 0,
+  "signed_volume_cm3": 140.0869,
+  "purpose": "170 mm one-piece A1 mini / 0.4 mm nozzle / PETG print",
+  "source_file": "../CaveCyclops_Print_200mm.blend",
+  "source_sha256": "2dcc70379cf7a3214c53372eb6c1a46ea10952c615888ad43b1177c7bb98d0ff",
+  "scale_from_200mm": 0.85,
+  "nominal_scaled_skirt_thickness_mm": 1.356,
+  "nominal_scaled_belt_tail_diameter_mm": 1.491,
+  "full_wall_thickness_certified": false,
+  "physical_print_tested": false,
+  "slicer_tested": true,
+  "stl_roundtrip": {
+    "dimensions_mm": [
+      115.1802,
+      98.5982,
+      170.0
+    ],
+    "bounds_mm": [
+      [
+        -63.307167053222656,
+        -49.29908752441406,
+        0.0
+      ],
+      [
+        51.87299728393555,
+        49.299102783203125,
+        170.0
+      ]
+    ],
+    "vertices": 474986,
+    "triangles": 950000,
+    "components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "signed_volume_cm3": 140.0869
+  },
+  "stl_sha256": "54e03bbd752087b788894b08a3f9216f91ba79c124360d78660bf252c54b1bb8",
+  "preserved_sources_sha256": {
+    "printing/CaveCyclops_Print_200mm.blend": "2dcc70379cf7a3214c53372eb6c1a46ea10952c615888ad43b1177c7bb98d0ff",
+    "printing/CaveCyclops_200mm_SOLID.stl": "b519421b64f352bfb054208bc29d1e6779ecbbe92f14f0fa57588b85a196a833",
+    "printing/CaveCyclops_200mm_SOLID.3mf": "4554e3144e2c9c6ebe24fa5fc740c2239bd96cb01ffdf9fdc00c99e6e0980853",
+    "CaveCyclops.blend": "759382823dea26503ab980561c3a1d9bdf55d91bf18ff0fb6b87446ddbd9df80"
+  },
+  "sources_unchanged": true,
+  "slicer": {
+    "automatic_mesh_repairs": 0,
+    "project_sha256": "21030b4ed97b0b19db25130034aad4bcd76eb52849ec2145d266e9dbd51e0824",
+    "input_stl_sha256": "54e03bbd752087b788894b08a3f9216f91ba79c124360d78660bf252c54b1bb8",
+    "actual_settings": {
+      "printer_model": "Bambu Lab A1 mini",
+      "nozzle_diameter": [
+        "0.4"
+      ],
+      "filament_type": [
+        "PETG"
+      ],
+      "layer_height": "0.16",
+      "wall_loops": "3",
+      "sparse_infill_density": "15%",
+      "enable_support": "1",
+      "support_type": "tree(auto)",
+      "support_top_z_distance": "0.24",
+      "support_bottom_z_distance": "0.24",
+      "support_on_build_plate_only": "0",
+      "brim_type": "outer_only",
+      "brim_width": "5",
+      "print_sequence": "by layer",
+      "enable_prime_tower": "0",
+      "curr_bed_type": "Textured PEI Plate",
+      "initial_layer_print_height": "0.2",
+      "nozzle_temperature": [
+        "255"
+      ],
+      "textured_plate_temp": [
+        "70"
+      ],
+      "support_threshold_angle": "25",
+      "support_object_xy_distance": "0.35",
+      "filament_max_volumetric_speed": [
+        "8"
+      ]
+    },
+    "version": "Bambu Studio 02.08.02.61",
+    "plates": 1,
+    "objects": 1,
+    "first_layer_bounds_mm": [
+      28.01077,
+      35.0627,
+      155.82602,
+      157.73911
+    ],
+    "maximum_layer_z_mm": 169.96,
+    "layer_count": 1062,
+    "predicted_seconds": 19297,
+    "filament_grams": 84.61,
+    "support_used": true,
+    "warnings": [
+      "not_support_traditional_timelapse"
+    ]
+  }
+}
